@@ -119,6 +119,7 @@
 
 a {
   text-decoration: none;
+  color: var(--vegas-gold);
 }
 
 li {
@@ -358,7 +359,8 @@ main {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
   padding: 10px;
-  padding-left: 20px;
+  padding-left: 17px;
+
 }
 
 .info-content .name {
@@ -387,7 +389,7 @@ main {
   font-size: 13px;
   color: var(--orange-yellow-crayola);
   background: var(--border-gradient-onyx);
-  padding: 10px;
+  padding: 20px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
   z-index: 1;
@@ -647,7 +649,7 @@ main {
   position: absolute;
   top: 0;
   left: 0;
-  /*transform: translate(0px, 25px);*/
+  transform: translate(15px, -40px);
   background: var(--eerie-black-2);
   border-radius: 14px;
   box-shadow: var(--shadow-1);
@@ -1371,7 +1373,11 @@ textarea.form-input::-webkit-resizer {
   background: var(--bg-gradient-jet);
 }
 
-
+.avatar-box img {
+  width: 65px;
+  height: 65px;
+  border-radius: inherit;
+}
 
 
 
@@ -1392,7 +1398,6 @@ textarea.form-input::-webkit-resizer {
   .clients-item {
     min-width: calc(33.33% - 10px);
   }
-
 
 
   /**
@@ -1501,7 +1506,10 @@ textarea.form-input::-webkit-resizer {
   }
 
   .avatar-box img {
-    width: 120px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: inherit;
   }
 
   .info-content .name {
@@ -1610,7 +1618,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .testimonials-avatar-box {
-    transform: translate(30px, -30px);
+    transform: translate(20px, -25px);
     border-radius: 20px;
   }
 
@@ -1813,7 +1821,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .modal-avatar-box img {
-    width: 80px;
+    width: 70px;
   }
 
 
@@ -2102,6 +2110,7 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 150px;
+    height: 150px;
   }
 
   .info-content .name {
